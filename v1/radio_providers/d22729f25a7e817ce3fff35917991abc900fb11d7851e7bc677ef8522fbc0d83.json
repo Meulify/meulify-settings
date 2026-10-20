@@ -1,0 +1,46 @@
+[
+  {
+    "id": "radio_browser",
+    "name": "Radio Browser",
+    "homepage": "https://www.radio-browser.info/",
+    "endpoints": {
+      "search": "https://de1.api.radio-browser.info/json/stations/search?name={searchTerms}&limit={limit}&hidebroken=true&order=votes&reverse=true",
+      "top": "https://de1.api.radio-browser.info/json/stations/search?countrycode={country}&order=votes&reverse=true&limit={limit}&hidebroken=true",
+      "global": "https://de1.api.radio-browser.info/json/stations/search?order=votes&reverse=true&limit={limit}&hidebroken=true",
+      "byIds": "https://de1.api.radio-browser.info/json/stations/byuuid?uuids={ids}"
+    },
+    "fields": {
+      "id": "stationuuid",
+      "name": "name",
+      "url": "url_resolved|url",
+      "image": "favicon",
+      "country": "countrycode",
+      "tags": "tags",
+      "homepage": "homepage",
+      "votes": "votes"
+    }
+  },
+  {
+    "id": "laut_fm",
+    "name": "laut.fm",
+    "homepage": "https://laut.fm/",
+    "endpoints": {
+      "search": "https://api.laut.fm/search/stations?query={searchTerms}&limit={limit}",
+      "global": "https://api.laut.fm/stations?limit={limit}",
+      "byId": "https://api.laut.fm/station/{id}"
+    },
+    "fields": {
+      "id": "name",
+      "name": "display_name|name",
+      "url": "stream_url",
+      "image": "images.station",
+      "tags": "genres",
+      "homepage": "page_url"
+    },
+    "shapes": {
+      "search": {
+        "items": "results.items.station"
+      }
+    }
+  }
+]

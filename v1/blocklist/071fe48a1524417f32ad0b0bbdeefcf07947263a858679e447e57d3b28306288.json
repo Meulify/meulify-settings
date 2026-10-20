@@ -1,0 +1,21 @@
+{
+  "_comment": "Listado de contenidos retirados/bloqueados en MEULIFY en respuesta a notificaciones legales o de infraccion de derechos de terceros.",
+  "version": 2,
+  "updated_at": "2026-06-29T00:00:00Z",
+  "reason": "MEULIFY remote blocklist",
+  "blocked_content_ids": [],
+  "blocked_video_ids": [],
+  "blocked_song_ids": [],
+  "blocked_podcast_ids": [],
+  "blocked_episode_ids": [],
+  "blocked_artist_ids": [],
+  "blocked_channel_ids": [],
+  "blocked_profile_ids": [],
+  "blocked_album_ids": [],
+  "blocked_playlist_ids": [],
+  "blocked_list_ids": [],
+  "blocked_urls": [],
+  "blocked_url_contains": [],
+  "blocked_titles_contains": [],
+  "blocked_search_result_ids": []
+}

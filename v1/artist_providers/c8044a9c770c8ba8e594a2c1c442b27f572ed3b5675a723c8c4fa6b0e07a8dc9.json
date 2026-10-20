@@ -1,0 +1,8 @@
+[
+  {
+    "id": "youtube_music_top_artists",
+    "name": "YouTube Music",
+    "url": "https://music.youtube.com/charts?hl={language}&gl={COUNTRY}&ucbcb=1",
+    "reader": "songs"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "youtube_charts",
+    "name": "YouTube Charts",
+    "url": "https://charts.youtube.com/charts/TopSongs/{country}/weekly",
+    "reader": "chart_analytics"
+  },
+  {
+    "id": "kworb",
+    "name": "kworb · Spotify",
+    "url": "https://kworb.net/spotify/country/{country}_daily.html"
+  },
+  {
+    "id": "kworb_apple_music",
+    "name": "kworb · Apple Music",
+    "url": "https://kworb.net/charts/apple_s/{country}.html"
+  },
+  {
+    "id": "kworb_itunes",
+    "name": "kworb · iTunes",
+    "url": "https://kworb.net/charts/itunes/{country}.html"
+  },
+  {
+    "id": "kworb_youtube",
+    "name": "kworb · YouTube",
+    "url": "https://kworb.net/youtube/insights/{country}.html"
+  },
+  {
+    "id": "apple_music_top_100",
+    "name": "Apple Music Top 100",
+    "url": "https://music.apple.com/{country}/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31"
+  }
+]

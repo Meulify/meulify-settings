@@ -1,0 +1,331 @@
+{
+  "_comment": "Plantillas de los formatos de página (colección remota page_formats; ver lib/features/web_browser/domain/page_format.dart y .context/features/page_formats.md). Solo se añaden papeles: nunca se quitan ni se renombran, las apps antiguas los siguen usando.",
+  "shelves": {
+    "_comment": "Páginas de estantes: un árbol de componentes con nombre (cada nodo es {nombre: {campos}}). names: nodos y campos; texts: valores del formato y de sus direcciones; lists: palabras con las que la página etiqueta las cosas (en el idioma en que se piden, ver ShelfPages.defaultLanguage); patterns: expresiones; paths: dónde está un dato dentro de un nodo, con alternativas (@papel es un nombre de names). Si una web mueve un campo, se corrige en paths.",
+    "names": {
+      "animatedThumbnail": "musicAnimatedThumbnailRenderer",
+      "appendItemsAction": "appendContinuationItemsAction",
+      "backupHeader": "backupRenderer",
+      "badge": "musicInlineBadgeRenderer",
+      "badges": "badges",
+      "bottomLink": "bottomEndpoint",
+      "browseResults": "singleColumnBrowseResultsRenderer",
+      "browseResultsWide": "twoColumnBrowseResultsRenderer",
+      "button": "buttonRenderer",
+      "byline": "longBylineText",
+      "card": "musicTwoRowItemRenderer",
+      "cardShelf": "musicCardShelfRenderer",
+      "cardThumbnail": "thumbnailRenderer",
+      "carousel": "musicCarouselShelfRenderer",
+      "carouselHeader": "musicCarouselShelfBasicHeaderRenderer",
+      "carouselTitleHeader": "musicCarouselShelfHeaderRenderer",
+      "continuationCommand": "continuationCommand",
+      "continuationContents": "continuationContents",
+      "continuationItem": "continuationItemRenderer",
+      "continuationItems": "continuationItems",
+      "continuationLink": "continuationEndpoint",
+      "continuations": "continuations",
+      "descriptionShelf": "musicDescriptionShelfRenderer",
+      "detailHeader": "musicDetailHeaderRenderer",
+      "displayPolicy": "musicItemRendererDisplayPolicy",
+      "errorScreen": "errorScreen",
+      "foregroundThumbnail": "foregroundThumbnail",
+      "formItemKey": "formItemEntityKey",
+      "grid": "gridRenderer",
+      "iconType": "iconType",
+      "immersiveHeader": "musicImmersiveHeaderRenderer",
+      "isLiveContent": "isLiveContent",
+      "itemSection": "itemSectionRenderer",
+      "lengthSeconds": "lengthSeconds",
+      "lengthText": "lengthText",
+      "link": "navigationEndpoint",
+      "listLink": "watchPlaylistEndpoint",
+      "lyricsLine": "musicLyricsLineRenderer",
+      "lyricsLines": "lyricsLines",
+      "mediaAttribute": "videoAttributeViewModel",
+      "mediaDetails": "videoDetails",
+      "mediaLink": "watchEndpoint",
+      "menuBox": "menuRenderer",
+      "menuLink": "menuNavigationItemRenderer",
+      "microformat": "microformat",
+      "microformatData": "microformatDataRenderer",
+      "monthlyListenerCount": "monthlyListenerCount",
+      "multiSelectMenu": "musicMultiSelectMenuRenderer",
+      "multiSelectMenuItem": "musicMultiSelectMenuItemRenderer",
+      "nextContinuation": "nextContinuationData",
+      "pageLink": "browseEndpoint",
+      "pageLinkConfig": "browseEndpointContextMusicConfig",
+      "pageLinkConfigs": "browseEndpointContextSupportedConfigs",
+      "pageType": "pageType",
+      "playButton": "musicPlayButtonRenderer",
+      "playButtonSlot": "playButton",
+      "playLink": "playNavigationEndpoint",
+      "playability": "playabilityStatus",
+      "playerError": "playerErrorMessageRenderer",
+      "playerShelf": "musicPlayerShelfRenderer",
+      "playlistShelf": "musicPlaylistShelfRenderer",
+      "playlistShelfContinuation": "musicPlaylistShelfContinuation",
+      "queue": "musicQueueRenderer",
+      "queueItem": "playlistPanelVideoRenderer",
+      "queuePanel": "playlistPanelRenderer",
+      "responseActions": "onResponseReceivedActions",
+      "row": "musicResponsiveListItemRenderer",
+      "rowColumn": "musicResponsiveListItemFlexColumnRenderer",
+      "rowColumns": "flexColumns",
+      "rowData": "playlistItemData",
+      "rowFixedColumn": "musicResponsiveListItemFixedColumnRenderer",
+      "rowFixedColumns": "fixedColumns",
+      "searchResults": "tabbedSearchResultsRenderer",
+      "secondaryContents": "secondaryContents",
+      "sectionList": "sectionListRenderer",
+      "shelf": "musicShelfRenderer",
+      "shelfContinuation": "musicShelfContinuation",
+      "shortByline": "shortBylineText",
+      "shortDescription": "shortDescription",
+      "simpleText": "simpleText",
+      "sortFilterButton": "musicSortFilterButtonRenderer",
+      "squareThumbnail": "croppedSquareThumbnailRenderer",
+      "startRadioButton": "startRadioButton",
+      "startTimeMs": "startTimeMs",
+      "subheader": "subheader",
+      "subscribeButton": "subscribeButtonRenderer",
+      "subscriberCount": "subscriberCountText",
+      "subscriptionButton": "subscriptionButton",
+      "tab": "tabRenderer",
+      "textRuns": "runs",
+      "thumbnailBox": "musicThumbnailRenderer",
+      "thumbnailOverlay": "musicItemThumbnailOverlayRenderer",
+      "timedLyrics": "musicTimedLyricsRenderer",
+      "viewCount": "viewCount",
+      "visualHeader": "musicVisualHeaderRenderer",
+      "watchNextNarrow": "singleColumnWatchNextResults",
+      "watchNextWide": "twoColumnWatchNextResults",
+      "watchResults": "singleColumnMusicWatchNextResultsRenderer",
+      "watchTabbedResults": "watchNextTabbedResultsRenderer",
+      "watchTabs": "tabbedRenderer"
+    },
+    "texts": {
+      "albumCardIdPrefix": "MPREb_",
+      "albumIdPrefix": "MPRE",
+      "artistIdPrefix": "UC",
+      "artistPath": "channel",
+      "authorSuffix": " - Topic",
+      "browseDataPath": "/browse",
+      "categoryPlaylistsQuery": "top {category}",
+      "chartsPageId": "FEmusic_charts",
+      "chartsPath": "charts",
+      "communityPlaylistsFilter": "Community playlists",
+      "communityPlaylistsQuery": "{category} playlists",
+      "countryOptionPrefix": "menu_",
+      "countryParam": "gl",
+      "errorStatus": "ERROR",
+      "explicitBadge": "MUSIC_EXPLICIT_BADGE",
+      "featuredPlaylistsFilter": "Featured playlists",
+      "inPageNoticeParam": "ucbcb",
+      "inPageNoticeValue": "1",
+      "languageParam": "hl",
+      "listParam": "list",
+      "lyricsTab": "Lyrics",
+      "mediaParam": "v",
+      "mediaTypeSong": "MUSIC_VIDEO_TYPE_ATV",
+      "mediaTypeVideo": "MUSIC_VIDEO_TYPE_OMV",
+      "missingThumbnail": "https://img.youtube.com/vi/default/maxresdefault.jpg",
+      "mixIconType": "MIX",
+      "newReleasesPageId": "FEmusic_new_releases_albums",
+      "newReleasesPath": "new_releases/albums",
+      "pageDataVariable": "ytInitialData",
+      "pagePath": "browse",
+      "pageTypeAlbum": "MUSIC_PAGE_TYPE_ALBUM",
+      "pageTypeArtist": "MUSIC_PAGE_TYPE_ARTIST",
+      "pageTypeChannel": "MUSIC_PAGE_TYPE_USER_CHANNEL",
+      "pageTypePlaylist": "MUSIC_PAGE_TYPE_PLAYLIST",
+      "placeholderArtistId": "UCBR8-60-B28hp2BmDPdntcQ",
+      "playableStatus": "OK",
+      "playerDataVariable": "ytInitialPlayerResponse",
+      "playlistPagePrefix": "VL",
+      "playlistPath": "playlist",
+      "pushedDataVariable": "initialData",
+      "queryParam": "q",
+      "radioPlaylistPrefix": "RDAMVM",
+      "searchDataPath": "/search",
+      "searchPath": "search",
+      "songsFilter": "Songs",
+      "unavailableDisplayPolicy": "MUSIC_ITEM_RENDERER_DISPLAY_POLICY_GREY_OUT",
+      "videoOverlayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_STYLE_FULL",
+      "videosFilter": "Videos",
+      "watchPath": "watch"
+    },
+    "lists": {
+      "albumItem": [
+        "álbum"
+      ],
+      "albumResult": [
+        "álbum",
+        "album"
+      ],
+      "albumsShelf": [
+        "álbumes",
+        "albums"
+      ],
+      "artistSeparators": [
+        ",",
+        "&",
+        "y",
+        "and",
+        "x"
+      ],
+      "artistShelf": [
+        "artist"
+      ],
+      "artistsShelf": [
+        "artists",
+        "artistas",
+        "artistes"
+      ],
+      "episodeItem": [
+        "podcast",
+        "episodio",
+        "episode"
+      ],
+      "liveShelf": [
+        "live"
+      ],
+      "mixMenu": [
+        "mix"
+      ],
+      "musicShelf": [
+        "songs",
+        "canciones",
+        "música",
+        "music"
+      ],
+      "pageIdPrefixes": [
+        "VL",
+        "UC",
+        "MPRE",
+        "FE"
+      ],
+      "playCounts": [
+        "visualizaciones",
+        "views",
+        "plays"
+      ],
+      "playlistResult": [
+        "playlist",
+        "lista"
+      ],
+      "radioItem": [
+        "radio"
+      ],
+      "radioShelf": [
+        "radio",
+        "station",
+        "emisora"
+      ],
+      "removedMessages": [
+        "no longer available",
+        "not available",
+        "is private",
+        "made private",
+        "has been removed",
+        "was removed",
+        "has been terminated",
+        "account associated with this video has been terminated",
+        "account associated",
+        "deleted",
+        "does not exist",
+        "doesn't exist",
+        "taken down",
+        "copyright",
+        "violat",
+        "who has blocked it",
+        "not available in your country",
+        "no longer exists"
+      ],
+      "singleItem": [
+        "single",
+        "ep"
+      ],
+      "singlesShelf": [
+        "sencillos",
+        "singles"
+      ],
+      "songTypeHints": [
+        "song",
+        "cancion",
+        "track"
+      ],
+      "songsShelf": [
+        "songs",
+        "canciones"
+      ],
+      "throttleMessages": [
+        "reload",
+        "sign in to confirm",
+        "not a bot",
+        "try again",
+        "temporarily",
+        "technical difficulties",
+        "playback id",
+        "check your",
+        "your connection",
+        "network error"
+      ],
+      "topSongsShelf": [
+        "songs",
+        "canciones",
+        "popular",
+        "top"
+      ],
+      "videoItem": [
+        "video",
+        "vídeo"
+      ],
+      "videosShelf": [
+        "videos",
+        "vídeos"
+      ],
+      "viewCounts": [
+        "views",
+        "visualizaciones"
+      ]
+    },
+    "patterns": {
+      "collectionPageId": "^(MPRE|VL|PL|OLAK5uy_|RD)",
+      "liveLikeToken": "\\b(live|directo|session|sessions)\\b",
+      "videoLikeToken": "\\b(video|official video|music video|visualizer|lyric|lyrics|karaoke|concert|concierto|performance|clip)\\b",
+      "videoWord": {
+        "source": "\\b(video|vídeo)\\b",
+        "caseSensitive": false
+      },
+      "viewsToken": "\\bview[s]?\\b"
+    },
+    "paths": {
+      "linkPageType": "@pageLinkConfigs.@pageLinkConfig.@pageType",
+      "rowVideoId": [
+        "@rowData.videoId",
+        "overlay.@thumbnailOverlay.content.@playButton.@playLink.@mediaLink.videoId",
+        "@link.@mediaLink.videoId"
+      ],
+      "searchSections": "contents.@searchResults.tabs.0.@tab.content.@sectionList.contents"
+    }
+  },
+  "chart_analytics": {
+    "_comment": "Páginas de rankings que publican sus filas como datos de analítica.",
+    "names": {
+      "sectionList": "sectionListRenderer",
+      "analyticsSection": "musicAnalyticsSectionRenderer",
+      "perspective": "perspectiveMetadata",
+      "requestParams": "requestParams",
+      "chartParams": "chartParams",
+      "countryCode": "countryCode",
+      "trackTypes": "trackTypes",
+      "trackViews": "trackViews",
+      "isVisible": "isVisible",
+      "mediaId": "encryptedVideoId",
+      "entryMetadata": "chartEntryMetadata",
+      "currentPosition": "currentPosition",
+      "previousPosition": "previousPosition"
+    }
+  }
+}

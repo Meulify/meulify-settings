@@ -1,0 +1,65 @@
+[
+  {
+    "id": "apple_podcasts",
+    "name": "Apple Podcasts",
+    "homepage": "https://podcasts.apple.com/",
+    "endpoints": {
+      "search": "https://itunes.apple.com/search?media=podcast&term={searchTerms}&limit={limit}",
+      "top": "https://rss.marketingtools.apple.com/api/v2/{country}/podcasts/top/{limit}/podcasts.json"
+    },
+    "items": "results",
+    "fields": {
+      "id": "collectionId",
+      "title": "collectionName|trackName",
+      "artist": "artistName",
+      "image": "artworkUrl600|artworkUrl100",
+      "feed": "feedUrl",
+      "explicit": "collectionExplicitness"
+    },
+    "exclude": {
+      "explicit": "explicit"
+    },
+    "enrich": {
+      "endpoints": {
+        "by": "https://itunes.apple.com/lookup?id={ids}&entity=podcast&country={country}"
+      },
+      "items": "results",
+      "fields": {
+        "id": "collectionId",
+        "title": "collectionName|trackName",
+        "artist": "artistName",
+        "image": "artworkUrl600|artworkUrl100",
+        "feed": "feedUrl",
+        "explicit": "collectionExplicitness"
+      }
+    },
+    "shapes": {
+      "top": {
+        "items": "feed.results",
+        "fields": {
+          "id": "id",
+          "title": "name",
+          "artist": "artistName",
+          "image": "artworkUrl100"
+        }
+      }
+    }
+  },
+  {
+    "id": "fyyd",
+    "name": "fyyd",
+    "homepage": "https://fyyd.de/",
+    "endpoints": {
+      "search": "https://api.fyyd.de/0.2/search/podcast?title={searchTerms}&count={limit}",
+      "top": "https://api.fyyd.de/0.2/feature/podcast/hot"
+    },
+    "items": "data",
+    "fields": {
+      "id": "id",
+      "title": "title",
+      "artist": "author",
+      "image": "imgURL",
+      "feed": "xmlURL"
+    }
+  }
+]

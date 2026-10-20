@@ -1,0 +1,8 @@
+[
+  {
+    "id": "youtube_music_new_albums",
+    "name": "YouTube Music",
+    "url": "https://music.youtube.com/new_releases/albums?hl={language}&gl={COUNTRY}&ucbcb=1",
+    "reader": "songs"
+  }
+]

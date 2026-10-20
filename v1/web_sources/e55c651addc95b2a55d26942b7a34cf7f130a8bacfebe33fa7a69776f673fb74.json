@@ -1,0 +1,48 @@
+[
+  {
+    "id": "youtube_music",
+    "name": "YouTube Music",
+    "homeUrl": "https://music.youtube.com/?ucbcb=1",
+    "searchUrl": "https://music.youtube.com/search?q={searchTerms}&hl=en&ucbcb=1",
+    "suggestUrl": "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&q={searchTerms}",
+    "reader": "songs",
+    "itemUrl": "https://www.youtube.com/watch?v={videoId}",
+    "itemImage": "https://i.ytimg.com/vi/{videoId}/hqdefault.jpg",
+    "shelves": ["popular_albums", "popular_artists", "country_top_songs"],
+    "discoveryUrl": "https://music.youtube.com/moods_and_genres?hl={language}&gl={country}&ucbcb=1",
+    "desktop": true
+  },
+  {
+    "id": "youtube_music_videos",
+    "name": "YouTube Music",
+    "section": "videos",
+    "homeUrl": "https://music.youtube.com/?ucbcb=1",
+    "searchUrl": "https://music.youtube.com/search?q={searchTerms}&hl=en&ucbcb=1",
+    "suggestUrl": "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&q={searchTerms}",
+    "reader": "videos",
+    "desktop": true
+  },
+  {
+    "id": "soundcloud",
+    "name": "SoundCloud",
+    "homeUrl": "https://m.soundcloud.com/",
+    "searchUrl": "https://m.soundcloud.com/search/sounds?q={searchTerms}"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "homeUrl": "https://m.youtube.com/",
+    "searchUrl": "https://m.youtube.com/results?search_query={searchTerms}",
+    "itemUrl": "https://m.youtube.com/watch?v={videoId}"
+  },
+  {
+    "id": "internet_archive",
+    "name": "Internet Archive",
+    "homeUrl": "https://archive.org/",
+    "searchUrl": "https://archive.org/search?query={searchTerms}&and%5B%5D=mediatype%3A%22audio%22",
+    "rendersWithScript": true,
+    "discoveryUrl": "https://archive.org/details/audio",
+    "itemUrl": "https://archive.org/details/{identifier}",
+    "itemImage": "https://archive.org/services/img/{identifier}"
+  }
+]

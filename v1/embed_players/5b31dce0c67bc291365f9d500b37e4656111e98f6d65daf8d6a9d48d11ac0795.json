@@ -1,0 +1,13 @@
+[
+  {
+    "kind": "soundcloud",
+    "host": "w.soundcloud.com",
+    "path": "/player",
+    "params": { "show_teaser": "false" }
+  },
+  {
+    "kind": "vimeo",
+    "host": "player.vimeo.com",
+    "path": "/video/"
+  }
+]

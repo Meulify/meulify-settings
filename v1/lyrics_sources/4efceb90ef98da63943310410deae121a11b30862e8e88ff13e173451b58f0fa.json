@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lrclib",
+    "name": "LRCLIB",
+    "url": "https://lrclib.net/api",
+    "format": "lrclib",
+    "enabled": true
+  },
+  {
+    "id": "lyrics_ovh",
+    "name": "lyrics.ovh",
+    "url": "https://api.lyrics.ovh/v1",
+    "format": "api",
+    "enabled": false,
+    "definition": {
+      "id": "lyrics_ovh",
+      "name": "lyrics.ovh",
+      "endpoints": {
+        "get": "https://api.lyrics.ovh/v1/{artist}/{title}"
+      },
+      "fields": {
+        "plain": "lyrics"
+      }
+    }
+  }
+]

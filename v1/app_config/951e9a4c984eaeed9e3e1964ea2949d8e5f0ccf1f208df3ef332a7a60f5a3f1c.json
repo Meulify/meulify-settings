@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "updated_at": "2026-06-29T00:00:00Z",
+  "default_locale": "en",
+  "default_search_mode": "music",
+  "latest_version": {
+    "android": "",
+    "ios": ""
+  },
+  "alerts": [],
+  "rules": []
+}
