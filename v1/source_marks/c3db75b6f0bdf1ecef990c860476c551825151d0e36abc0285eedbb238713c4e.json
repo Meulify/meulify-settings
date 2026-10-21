@@ -1,0 +1,15 @@
+{
+  "music.youtube.com": { "color": "#E61919" },
+  "soundcloud.com": { "color": "#F2460D" },
+  "youtube.com": { "color": "#B81414" },
+  "archive.org": { "color": "#EBE8E0", "text": "#1A1A1A" },
+  "podcasts.apple.com": { "color": "#9947EB" },
+  "fyyd.de": { "color": "#267360" },
+  "radio-browser.info": { "color": "#2653D9" },
+  "laut.fm": { "color": "#D92653" },
+  "charts.youtube.com": { "color": "#B81414" },
+  "kworb.net": { "color": "#454D54" },
+  "music.apple.com": { "color": "#EB4770" },
+  "lrclib.net": { "color": "#14B8B8" },
+  "lyrics.ovh": { "color": "#736699" }
+}
