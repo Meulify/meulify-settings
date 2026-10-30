@@ -4,7 +4,7 @@
     "name": "YouTube Music",
     "homeUrl": "https://music.youtube.com/?ucbcb=1",
     "searchUrl": "https://music.youtube.com/search?q={searchTerms}&hl=en&ucbcb=1",
-    "suggestUrl": "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&q={searchTerms}",
+    "suggestUrl": "https://www.google.com/complete/search?client=firefox&ds=yt&q={searchTerms}",
     "reader": "songs",
     "itemUrl": "https://www.youtube.com/watch?v={videoId}",
     "itemImage": "https://i.ytimg.com/vi/{videoId}/hqdefault.jpg",
@@ -18,7 +18,7 @@
     "section": "videos",
     "homeUrl": "https://music.youtube.com/?ucbcb=1",
     "searchUrl": "https://music.youtube.com/search?q={searchTerms}&hl=en&ucbcb=1",
-    "suggestUrl": "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&q={searchTerms}",
+    "suggestUrl": "https://www.google.com/complete/search?client=firefox&ds=yt&q={searchTerms}",
     "reader": "videos",
     "desktop": true
   },

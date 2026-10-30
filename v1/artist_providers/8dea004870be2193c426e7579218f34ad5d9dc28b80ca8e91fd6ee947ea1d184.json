@@ -1,0 +1,14 @@
+[
+  {
+    "id": "youtube_charts_top_artists",
+    "name": "YouTube Charts",
+    "url": "https://charts.youtube.com/charts/TopArtists/{country}/weekly",
+    "reader": "chart_analytics"
+  },
+  {
+    "id": "youtube_music_top_artists",
+    "name": "YouTube Music",
+    "url": "https://music.youtube.com/charts?hl={language}&gl={COUNTRY}&ucbcb=1",
+    "reader": "songs"
+  }
+]

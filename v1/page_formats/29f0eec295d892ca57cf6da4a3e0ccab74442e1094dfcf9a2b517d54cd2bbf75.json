@@ -325,7 +325,10 @@
       "mediaId": "encryptedVideoId",
       "entryMetadata": "chartEntryMetadata",
       "currentPosition": "currentPosition",
-      "previousPosition": "previousPosition"
+      "previousPosition": "previousPosition",
+      "artistTypes": "artists",
+      "artistViews": "artistViews",
+      "artistId": "externalChannelId"
     }
   },
   "page_lists": {
