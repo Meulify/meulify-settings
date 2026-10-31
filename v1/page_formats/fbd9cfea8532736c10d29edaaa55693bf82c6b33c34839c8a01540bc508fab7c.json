@@ -149,6 +149,7 @@
       "radioPlaylistPrefix": "RDAMVM",
       "searchDataPath": "/search",
       "searchPath": "search",
+      "songPageArtistsMeta": "og:description",
       "songsFilter": "Songs",
       "unavailableDisplayPolicy": "MUSIC_ITEM_RENDERER_DISPLAY_POLICY_GREY_OUT",
       "videoOverlayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_STYLE_FULL",
