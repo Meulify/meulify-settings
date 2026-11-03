@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fyyd",
+    "name": "fyyd",
+    "homepage": "https://fyyd.de/",
+    "endpoints": {
+      "search": "https://api.fyyd.de/0.2/search/podcast?title={searchTerms}&count={limit}",
+      "top": "https://api.fyyd.de/0.2/feature/podcast/hot"
+    },
+    "items": "data",
+    "fields": {
+      "id": "id",
+      "title": "title",
+      "artist": "author",
+      "image": "imgURL",
+      "feed": "xmlURL"
+    }
+  },
+  {
+    "id": "gpodder",
+    "name": "gpodder.net",
+    "homepage": "https://gpodder.net/",
+    "endpoints": {
+      "search": "https://gpodder.net/search.json?q={searchTerms}",
+      "top": "https://gpodder.net/toplist/{limit}.json"
+    },
+    "fields": {
+      "id": "url",
+      "title": "title",
+      "artist": "author",
+      "image": "scaled_logo_url|logo_url",
+      "feed": "url"
+    }
+  }
+]
