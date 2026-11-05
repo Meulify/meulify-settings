@@ -43,6 +43,7 @@
       "lyricsLine": "musicLyricsLineRenderer",
       "lyricsLines": "lyricsLines",
       "mediaAttribute": "videoAttributeViewModel",
+      "mediaAttributeAlbum": "secondarySubtitle",
       "mediaDetails": "videoDetails",
       "mediaLink": "watchEndpoint",
       "menuBox": "menuRenderer",
@@ -299,7 +300,11 @@
         "source": "\\b(video|vídeo)\\b",
         "caseSensitive": false
       },
-      "viewsToken": "\\bview[s]?\\b"
+      "viewsToken": "\\bview[s]?\\b",
+      "songTitleFeatured": {
+        "source": "[(\\[]\\s*(?:feat\\.?|ft\\.?|featuring)\\s+([^)\\]]+)[)\\]]",
+        "caseSensitive": false
+      }
     },
     "paths": {
       "linkPageType": "@pageLinkConfigs.@pageLinkConfig.@pageType",

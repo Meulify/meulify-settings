@@ -9,6 +9,7 @@
     "itemUrl": "https://www.youtube.com/watch?v={videoId}",
     "itemImage": "https://i.ytimg.com/vi/{videoId}/hqdefault.jpg",
     "shelves": ["popular_albums", "popular_artists", "country_top_songs"],
+    "importOrder": 1,
     "discoveryUrl": "https://music.youtube.com/moods_and_genres?hl={language}&gl={country}&ucbcb=1",
     "desktop": true
   },
@@ -26,7 +27,8 @@
     "id": "soundcloud",
     "name": "SoundCloud",
     "homeUrl": "https://m.soundcloud.com/",
-    "searchUrl": "https://m.soundcloud.com/search/sounds?q={searchTerms}"
+    "searchUrl": "https://m.soundcloud.com/search/sounds?q={searchTerms}",
+    "importOrder": 2
   },
   {
     "id": "youtube",
