@@ -27,8 +27,7 @@
     "id": "soundcloud",
     "name": "SoundCloud",
     "homeUrl": "https://m.soundcloud.com/",
-    "searchUrl": "https://m.soundcloud.com/search/sounds?q={searchTerms}",
-    "importOrder": 2
+    "searchUrl": "https://m.soundcloud.com/search/sounds?q={searchTerms}"
   },
   {
     "id": "youtube",
